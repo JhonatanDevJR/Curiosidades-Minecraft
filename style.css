@@ -4,7 +4,7 @@
     src: url('fontes/Minecrafter.Alt.ttf')format('truetype');
 }
 body{
-    background-color: #3B3973;
+    background-color: #50d6be;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
@@ -21,12 +21,12 @@ h3{
 }
 
 header{
-    background-color: #6DA644;
+    
 }
 
 
 main{
-    background-color: #B86D46;
+    background-color: #60BD50;
 }
 
 nav>a{
