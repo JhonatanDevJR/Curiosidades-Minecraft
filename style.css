@@ -16,6 +16,9 @@ h1{
     color: #c4b7b3bd;
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
+h3{
+    text-decoration: underline;
+}
 
 header{
     background-color: #6DA644;
@@ -29,4 +32,27 @@ main{
 nav>a{
     color: black;
     font-weight: bold;
+    
+}
+
+nav> a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+img#logo{
+    margin: auto;
+    display: block;
+    
+}
+
+p> img{
+    box-shadow: 3px 3px 3px  black;
+    display: block;
+    
+}
+
+iframe{
+    margin: auto;
+    display:block ;
 }
