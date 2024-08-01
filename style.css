@@ -16,14 +16,15 @@ h1{
     color: #c4b7b3bd;
     text-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
+
+h1#especial{
+    background-color: #262423;
+}
+
+
 h3{
     text-decoration: underline;
 }
-
-header{
-    
-}
-
 
 main{
     background-color: #60BD50;
