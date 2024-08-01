@@ -47,6 +47,11 @@ img#logo{
     
 }
 
+img{
+    margin: auto;
+    display: block;
+}
+
 p> img{
     box-shadow: 3px 3px 3px  black;
     display: block;
