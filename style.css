@@ -133,12 +133,13 @@ footer> p{
 iframe{
     margin: auto;
     display: block;
-    
+    width: 102%;
 }
 
 p> iframe{
     box-shadow: 3px 3px 3px black;
     margin: -10px;
+    max-width: 1400px;
     
    
     
