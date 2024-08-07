@@ -156,6 +156,7 @@ aside{
     background-color: grey;
     border-radius: 15px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.479);
+    
 }
 
 aside h3{
@@ -167,6 +168,7 @@ aside h3{
 aside>p{
     color: white;
     text-decoration: underline;
+    text-align: center;
 }
 
 aside>ul {
