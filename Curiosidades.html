@@ -23,11 +23,33 @@
         a{
             padding-left: 15px;
         }
+
+        button{
+            
+            display: block;
+            margin: auto;
+        }
+
+        img#minhaImagem{
+            display: block;
+            margin: auto;
+            width: 100%;
+            
+        }
     </style>
 </head>
 <body>
-    <h1>EM ANDAMENTO 😅</h1>
-    <img src="midia/zombie.webp" alt="Zombie">
+    <button onclick="mostrarImagem()">CLICA AQUI</button>
+    <img id="minhaImagem" src="" alt="Imagem" style="display: none;">
+
+<script>
+function mostrarImagem() {
+  document.getElementById("minhaImagem").src= "midia/itachi.jpeg"; // Substitua com o endereço da sua imagem
+  document.getElementById("minhaImagem").style.display = "block";
+}
+</script>
+    <h1>AIN ZE DA MANGA 🌚</h1>
+    
     <a href="index.html">Home</a>
     <a href="FaleComigo.html">next page</a>
     
